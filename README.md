@@ -2,7 +2,6 @@
 
 Сервис сокращения ссылок + генерация QR-кодов на Yii2
 
----
 
 ## Стек
 
@@ -12,7 +11,6 @@
 * Docker + docker-compose
 * jQuery + Bootstrap
 
----
 
 ## Установка и запуск
 
@@ -24,7 +22,6 @@
 cp .env.example .env
 ```
 
----
 
 ### Запустить Docker
 
@@ -38,7 +35,6 @@ docker compose up -d --build
 docker compose ps
 ```
 
----
 
 ### Установить зависимости
 
@@ -46,7 +42,6 @@ docker compose ps
 docker compose exec php composer install
 ```
 
----
 
 ### Применить миграции
 
@@ -60,15 +55,12 @@ docker compose exec php php yii migrate
 yes
 ```
 
----
 
 ### Открыть проект
 
 ```text
 http://localhost:8080
 ```
-
----
 
 ## Проверка работы
 
@@ -81,7 +73,6 @@ http://localhost:8080
    * короткая ссылка
    * QR-код
 
----
 
 ### Проверка редиректа
 
@@ -89,7 +80,6 @@ http://localhost:8080
 2. Произойдет редирект на оригинальный URL
 3. В БД увеличится счетчик переходов
 
----
 
 ## База данных
 
@@ -103,7 +93,6 @@ http://localhost:8080
 * User: `root`
 * Password: `root`
 
----
 
 ## Полезные команды
 
@@ -124,5 +113,3 @@ docker compose down
 ```bash
 docker compose logs -f
 ```
-
----
