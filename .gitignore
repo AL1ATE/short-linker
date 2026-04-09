@@ -1,0 +1,44 @@
+# IDE
+.idea
+.vscode
+nbproject
+.buildpath
+.project
+.settings
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor
+composer.phar
+
+# PHPUnit
+phpunit.phar
+/phpunit.xml
+
+# Tests
+tests/_output/*
+tests/_support/_generated
+
+# Vagrant
+/.vagrant
+
+# Yii runtime
+/runtime/
+/web/assets/
+
+# ENV
+.env
+
+# Logs
+*.log
+
+# Temp files
+*.swp
+*.swo
+
+# Docker
+/docker/mysql/data/
+/docker/data/
