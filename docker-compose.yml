@@ -9,6 +9,7 @@ services:
       - ./:/app
     depends_on:
       - db
+    entrypoint: ["/entrypoint.sh"]
 
   nginx:
     image: nginx:1.27-alpine
